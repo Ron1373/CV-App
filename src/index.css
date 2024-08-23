@@ -1,0 +1,57 @@
+body {
+  color: rgb(1, 1, 196);
+  margin: 0;
+  padding: 0;
+}
+
+.info-container h3 {
+  color: rgb(1, 1, 124);
+  font-size: 1.5rem;
+}
+
+input {
+  display: block;
+}
+
+button {
+  border-radius: 1rem;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(2, 2, 245);
+  padding: 0.3rem 0.6rem;
+  margin-top: 0.2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-container {
+  padding: 2rem;
+}
+.cv-container {
+  color: black;
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+}
+.cv-container h1,
+h2 {
+  text-align: center;
+}
+.contact {
+  text-align: center;
+}
+
+li {
+  margin-top: 0.5rem;
+}
+.list-el {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.company-name {
+  font-style: italic;
+}
